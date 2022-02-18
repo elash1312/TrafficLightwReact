@@ -1,4 +1,8 @@
-
+.light {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 /* 
 
     You can write your own styles here...
