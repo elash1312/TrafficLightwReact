@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	const ( selectedColor, getSelectedColor ) = useState("red");
+	// const ( selectedColor, getSelectedColor ) = useState("red");
 	return (
 		<div className="traffic-light">
 			<div className="light red glow"></div>
