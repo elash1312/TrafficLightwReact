@@ -3,7 +3,7 @@
     background-color: black;
     display: inline-block;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 25rem;
     margin-right: 25rem; 
 } 
@@ -11,7 +11,6 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    /* background-color: blue; */
 }
 .red{ background-color: red; }
 .yellow{background-color: yellow; }
@@ -19,10 +18,12 @@
 .glow{
     box-shadow: 0px 0px 9px 4px #747de8;
 }
-/* .thingy {
+.thingy {
     background-color: black;
     width: 20px;
-    height: 20px;
-    padding: 10px;
-    margin-top: 30px;
-} */
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 28rem;
+    margin-right: 25rem; 
+}

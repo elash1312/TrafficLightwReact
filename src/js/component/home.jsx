@@ -7,7 +7,8 @@ import React, { useState } from "react";
 const Home = () => {
 	const [selectedColor, setSelectedColor] = useState("yellow");
 	return (
-		<div className="thingy">
+		<>
+			<div className="thingy align-center"></div>
 			<div className="traffic-light align-center rounded">
 				<div
 					onClick={() => setSelectedColor("red")}
@@ -27,7 +28,7 @@ const Home = () => {
 						(selectedColor === "green" ? " glow" : "")
 					}></div>
 			</div>
-		</div>
+		</>
 	);
 };
 
